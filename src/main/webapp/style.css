@@ -1,0 +1,30 @@
+.north {
+	background: #CCCCCC;
+	height: 100px;
+}
+
+.south{
+	background: #6B6B6B;
+	height: 60px;
+}
+
+.west {
+	background: #B9D4F0;
+}
+
+.east {
+	background: #EAD6FF;
+	
+}
+
+.west, .east{
+	width: 150px;
+}
+
+.center {
+	background: #E6FFCC;
+}
+
+.banner {
+	background:#FFCC80;
+}

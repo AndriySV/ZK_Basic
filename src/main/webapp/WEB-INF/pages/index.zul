@@ -1,0 +1,25 @@
+<?link rel="stylesheet" type="text/css" href="/style.css"?>
+
+<zk>
+	<borderlayout hflex="1" vflex="1">
+		<north sclass="north">
+			<include src="/WEB-INF/pages/north.zul" />
+		</north>
+
+		<west sclass="west">
+
+		</west>
+		
+		<center sclass="center">
+			<include src="/WEB-INF/pages/main.zul" />
+		</center>
+
+		<east sclass="east">
+
+		</east>
+
+		<south sclass="south">
+			
+		</south>
+	</borderlayout>
+</zk>

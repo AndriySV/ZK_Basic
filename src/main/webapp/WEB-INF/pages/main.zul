@@ -1,0 +1,14 @@
+
+<window apply="org.zkoss.bind.BindComposer" 
+	viewModel="@id('main') @init('com.as.mvvm.MainViewModel')"
+	border="normal" vflex="1" hflex="1">
+	
+	<vlayout>
+		
+		<label style="font-size:20px" value="@save(main.string)"> label 1</label>
+		<label style="font-size:20px" value="@load(main.string)"> label 2</label>
+		
+	</vlayout>
+
+
+</window>
