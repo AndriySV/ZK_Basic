@@ -2,6 +2,7 @@ package com.as.mvvm;
 
 import java.io.Serializable;
 
+import org.zkoss.bind.annotation.Command;
 import org.zkoss.bind.annotation.Init;
 import org.zkoss.bind.annotation.NotifyChange;
 
@@ -18,12 +19,16 @@ public class MainViewModel implements Serializable {
 		return string;
 	}
 
-	@NotifyChange("string")
+//	@NotifyChange("string")
 	public void setString(String string) {
 		this.string = string + "  Hello !";
 	}
 	
 	
+	@Command
+	public void show() {
+		System.out.println("---------------------- HELOO -----------------------");
+	}
 	
 	
 	
