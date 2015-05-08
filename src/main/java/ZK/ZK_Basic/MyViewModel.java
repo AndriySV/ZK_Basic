@@ -4,6 +4,9 @@ import org.zkoss.bind.annotation.Command;
 import org.zkoss.bind.annotation.Init;
 import org.zkoss.bind.annotation.NotifyChange;
 
+
+// Master test
+
 public class MyViewModel {
 
 	private int count;
