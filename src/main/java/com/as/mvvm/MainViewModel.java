@@ -6,7 +6,7 @@ import org.zkoss.bind.annotation.Command;
 import org.zkoss.bind.annotation.Init;
 import org.zkoss.bind.annotation.NotifyChange;
 
-// Test 2
+// Test 2 new
 public class MainViewModel implements Serializable {
 
 	@Init
